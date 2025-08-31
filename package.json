@@ -26,7 +26,7 @@
   "devDependencies": {
     "@estruyf/github-actions-reporter": "^1.10.0",
     "@faker-js/faker": "^9.5.0",
-    "@playwright/test": "^1.54.2",
+    "@playwright/test": "^1.55.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^24.3.0",
     "chrome-launcher": "^1.2.0",
@@ -38,5 +38,9 @@
   },
   "dependencies": {
     "@clerk/elements": "^0.23.59"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "type": "commonjs"
 }
