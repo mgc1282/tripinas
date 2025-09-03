@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 import users from '../../test-data/users.json';
 
 test.describe('Login and Profile Verification', () => {
+
   users.forEach(user => {
     test(`should login as ${user.username} and verify profile`, async ({ page }) => {
       await page.goto('http://localhost:5173/sign-in');
