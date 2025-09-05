@@ -8,13 +8,11 @@ export default function SignUpPage() {
       alignItems: "center",
       justifyContent: "center",
     }}>
-      <div style={{
-
-        borderRadius: "12px",
-        padding: "2rem",
-    
-      }}>
-        <SignUp />
+      <div style={{ borderRadius: "12px", padding: "2rem" }}>
+        <SignUp 
+          forceRedirectUrl="/dashboard" 
+          fallbackRedirectUrl="/dashboard" 
+        />
       </div>
     </div>
   );
