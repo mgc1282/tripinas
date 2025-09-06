@@ -8,11 +8,11 @@ export default function SignInPage() {
       alignItems: "center",
       justifyContent: "center",
     }}>
-      <div style={{
-        borderRadius: "1px",
-        padding: "2rem",
-      }}>
-        <SignIn  signUpFallbackRedirectUrl="http://localhost:5173/sign-up"/>
+      <div style={{ borderRadius: "1px", padding: "2rem" }}>
+        <SignIn 
+          forceRedirectUrl="/dashboard"
+          fallbackRedirectUrl="/dashboard"
+        />
       </div>
     </div>
   );

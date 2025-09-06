@@ -16,7 +16,7 @@ export default function Dashboard() {
               marginBottom: "2rem"
             }}>
               <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>Dashboard Home</h1>
-              <UserButton afterSignOutUrl="/sign-in" />
+              <UserButton/>
             </header>
             <UserProfile />
             {/* Add scalable dashboard widgets/components here */}
