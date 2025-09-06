@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",              // Modern JS output
+    "module": "CommonJS",            // Node.js module system
+    "strict": true,                  // Enable all strict type checks
+    "esModuleInterop": true,         // Allow default imports from CommonJS
+    "resolveJsonModule": true,       // Allow importing JSON files
+    "outDir": "dist",                // Output directory for compiled files
+    "moduleResolution": "node",      // Node.js module resolution
+    "skipLibCheck": true             // Skip type checking of declaration files
+  },
+  "include": [
+    "tests",
+    "page",
+    "shared",
+    "test-data"
+  ]
+}

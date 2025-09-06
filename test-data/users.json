@@ -1,8 +1,29 @@
 [
   {
-    "fullName": "Reginald Offemaria",
-    "username": "regietest21",
-    "email": "regietest@example.com",
-    "password": "regietest"
+    "fullName": "marianne test",
+    "firstName": "marianne",
+    "lastName": "test",
+    "username": "mariannetest",
+    "email": "marianne123@test.com",
+    "password": "test128208"
+  },
+  {
+    "firstName": "marianne",
+    "lastName": "test",
+    "usernameTaken": "marianneC",
+    "emailTaken": "mariannegcecilio@gmail.com",
+    "invalidPassword": "mariannectes"
+  },
+  {
+    "firstName": "marianne",
+    "lastName": "test",
+    "usernameTaken": "marianneC",
+    "emailTaken": "mariannegcecilio@gmail.com",
+    "invalidPassword": "mariannectes"
+  },
+  {
+    "VerificationCode": "123456",
+    "oldPassword": "mariannectest",
+    "newPassword": "mariannectest1"
   }
 ]
